@@ -1,0 +1,55 @@
+body
+{
+	background-color:#e9e9e9; 
+}
+.side-nav
+{
+	background-color:#ff7500;
+    min-height: 100vh;
+    color:#fff;  
+}
+.side-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu-item {
+    padding: 5px 10px;
+}
+.menu-item:hover,.menu-item:focus
+{
+	background-color: #d56310;
+}
+.menu-link {
+    display: block;
+    color: #e3e3e3;
+}
+.menu-link:hover, .menu-link:focus
+{
+	color:#fff;
+	text-decoration: none; 
+}
+.user-info
+{
+    font-size: 80%;
+}
+.user-info a
+{
+    color: #e3e3e3;
+}
+.user-info a:hover, .user-info a:focus
+{
+    color:#fff;
+    text-decoration: none; 
+}
+.delete-data
+{
+    color:#da3131;
+}
+.delete-data:focus,.delete-data:hover{
+    color:#f63c3c;
+}
+.img-small {
+    width: 75px;
+    height: 75px;
+}
