@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^search?$ search.php [QSA]
+RewriteRule ^category/([^/]+)?$ cat.php?slug=$1 [QSA]
+RewriteRule ^article/([^/]+)?$ detail.php?slug=$1 [QSA]
+
+
+
